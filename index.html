@@ -80,7 +80,7 @@
           password: password
       };
 
-      fetch(apiUrl + 'register', {
+      fetch(apiUrl + 'users/register', {
           method: 'POST',
           headers: {
               'Content-Type': 'application/json'
@@ -112,7 +112,7 @@
           password: password
       };
 
-      fetch(apiUrl + 'login', {
+      fetch(apiUrl + 'users/login', {
           method: 'POST',
           headers: {
               'Content-Type': 'application/json'
